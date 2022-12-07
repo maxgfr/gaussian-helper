@@ -1,6 +1,6 @@
 {
   "name": "gaussian-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "maxgfr",
   "license": "MIT",
   "description": "A simple helper to calculate gaussian distribution",

@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/maxgfr/gaussian-helper/compare/v1.0.1...v1.0.2) (2022-12-07)
+
+
+### Bug Fixes
+
+* tu ([c871cb4](https://github.com/maxgfr/gaussian-helper/commit/c871cb40c8c121808cbf2e1d7d6f02fec6d23504))
+
 ## [1.0.1](https://github.com/maxgfr/gaussian-helper/compare/v1.0.0...v1.0.1) (2022-12-07)
 
 
