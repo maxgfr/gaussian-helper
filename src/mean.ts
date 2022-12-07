@@ -1,6 +1,6 @@
 export function getMean(array: Array<number>) {
-  var tot = 0;
-  for (var i = 0; i < array.length; i++) {
+  let tot = 0;
+  for (let i = 0; i < array.length; i++) {
     tot += array[i];
   }
   return (1 / array.length) * tot;
