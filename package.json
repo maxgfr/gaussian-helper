@@ -1,28 +1,24 @@
 {
-  "name": "typescript-boilerplate-package",
-  "version": "1.0.3",
+  "name": "gaussian-helper",
+  "version": "1.0.0",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A typescript boilerplate using swc to release a package on npm",
+  "description": "A simple helper to calculate gaussian distribution",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package.git"
+    "url": "https://github.com/maxgfr/gaussian-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package/issues"
+    "url": "https://github.com/maxgfr/gaussian-helper/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-boilerplate-package#readme",
+  "homepage": "https://github.com/maxgfr/gaussian-helper#readme",
   "files": [
     "build"
   ],
   "keywords": [
-    "boilerplate",
-    "typescript",
-    "swc",
-    "package",
-    "release",
-    "github"
+    "gaussian",
+    "gaussian-helper"
   ],
   "scripts": {
     "start": "node build/index.js",

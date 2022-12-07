@@ -1,18 +1,21 @@
-# typescript-boilerplate-package
+# gaussian-helper
 
-`typescript-boilerplate-package` is a package that helps you to create a typescript project with a nice structure. It uses [semantic-release](https://github.com/semantic-release/semantic-release) to publish your package on npm and generate a changelog.
+A simple tool to help you with Gaussian calculations.
+
+## Installation
+
+```bash
+yarn add gaussian-helper
+```
 
 ## Usage
 
-Set `NPM_TOKEN` in your Github actions secret, and that's it :)
-
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/token.png)
-
-## Test this boilerplate
-
-To test it, you can install it with `npm install typescript-boilerplate-package`. Then :
-
 ```ts
-import {sayHello} from "typescript-boilerplate-package";
-sayHello();
+import { getMedian, getMean, getStandardDeviation } from 'gaussian-helper';
+
+const values = [1, 2, 3, 4, 5];
+
+const median = getMedian(values); // 3
+const mean = getMean(values); // 2.5
+const standardDeviation = getStandardDeviation(values); // 1.4142135623730951
 ```
