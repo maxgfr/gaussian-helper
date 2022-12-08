@@ -13,9 +13,9 @@ yarn add gaussian-helper
 ```ts
 import { getMedian, getMean, getStandardDeviation } from 'gaussian-helper';
 
-const values = [1, 2, 3, 4, 5];
+const values = [10, 2, 3, 4, 5];
 
-const median = getMedian(values); // 3
-const mean = getMean(values); // 2.5
+const median = getMedian(values); // 4
+const mean = getMean(values); // 4.800000000000001
 const standardDeviation = getStandardDeviation(values); // 1.4142135623730951
 ```
