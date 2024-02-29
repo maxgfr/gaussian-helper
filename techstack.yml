@@ -2,7 +2,7 @@ repo_name: maxgfr/gaussian-helper
 report_id: 64b172206b3546bf61574a4a671a6e3e
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:56:12+00:00'
+timestamp: '2024-02-29T18:33:27+00:00'
 requested_by: renovate[bot]
 provider: github
 branch: main
@@ -93,7 +93,7 @@ tools:
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-12-07 17:49:12.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 3.0.0
   license: MIT
