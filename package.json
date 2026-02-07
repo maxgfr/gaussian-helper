@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "A simple helper to calculate gaussian distribution",
   "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/maxgfr/gaussian-helper.git"
